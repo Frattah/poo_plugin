@@ -130,7 +130,7 @@ public class SampleHandler extends AbstractHandler {
 					zipFile = new ZipFile(homeDir + "/Scaricati/" + "compito.zip");
 			}
 			else if (System.getProperty("os.name").startsWith("Windows"))
-				zipFile = new ZipFile(homeDir + "\\Download\\" + "compito.zip");
+				zipFile = new ZipFile(homeDir + "\\Downloads\\" + "compito.zip");
 		} catch (IOException e1) {
 			e1.printStackTrace();
 		}

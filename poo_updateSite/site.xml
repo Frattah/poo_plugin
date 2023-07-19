@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/poo_feature_1.0.0.qualifier.jar" id="poo_feature" version="1.0.0.qualifier"/>
+   <feature url="features/poo_feature_1.0.0.202307191101.jar" id="poo_feature" version="1.0.0.202307191101"/>
 </site>

@@ -12,5 +12,4 @@ Require-Bundle: org.eclipse.core.resources;bundle-version="3.18.100",
  org.eclipse.jdt.launching;bundle-version="3.19.800",
  org.eclipse.ui.ide
 Bundle-RequiredExecutionEnvironment: JavaSE-17
-Import-Package: org.eclipse.ui.wizards.datatransfer
 Automatic-Module-Name: poo.plugin.singleton.true

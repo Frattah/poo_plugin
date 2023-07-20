@@ -27,33 +27,21 @@
             commandId="my_first_plugin.commands.sampleCommand"
             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
             contextId="org.eclipse.ui.contexts.window"
-            sequence="M1+6">
+            sequence="M1+6">												<!-- Makes the shortcut for the key to be Ctrl+6 -->
       </key>
    </extension>
    <extension
          point="org.eclipse.ui.menus">
       <menuContribution
-            locationURI="menu:org.eclipse.ui.main.menu?after=additions">
-         <menu
-               id="my_first_plugin.menus.sampleMenu"
-               label="Sample Menu"
-               mnemonic="M">
-            <command
-                  commandId="my_first_plugin.commands.sampleCommand"
-                  id="my_first_plugin.menus.sampleCommand"
-                  mnemonic="S">
-            </command>
-         </menu>
-      </menuContribution>
-      <menuContribution
-            locationURI="toolbar:org.eclipse.ui.main.toolbar?after=additions">
+            locationURI="toolbar:org.eclipse.ui.main.toolbar?before=additions">
          <toolbar
                id="my_first_plugin.toolbars.sampleToolbar">
             <command
                   id="my_first_plugin.toolbars.sampleCommand"
                   commandId="my_first_plugin.commands.sampleCommand"
                   icon="icons/sample.png"
-                  tooltip="Say hello world">
+                  tooltip="Setup Esame di POO">							    <!-- TOOLTIP = Message to the user when placing the cursor on the key 
+                  																 ICON = Button icon format 32x32								  -->
             </command>
          </toolbar>
       </menuContribution>

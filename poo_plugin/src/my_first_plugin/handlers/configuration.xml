@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>this is my properties file</comment>
+<entry key="downloadsFolder">Downloads</entry>
+<entry key="examName">compito</entry>
+<entry key="binFolder">bin</entry>
+<entry key="defaultSerialNumber">matricola</entry>
+<entry key="messageInputDialog">Immetti la tua matricola</entry>
+<entry key="titleWindow">Setup Esame di POO</entry>
+</properties>
